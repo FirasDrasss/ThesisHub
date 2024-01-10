@@ -1,0 +1,86 @@
+[
+    {
+        "model": "ThesisListing.departments",
+        "pk": 1,
+        "fields": {
+            "department_name": "Department of Biology, Chemistry, and Pharmacy"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 2,
+        "fields": {
+            "department_name": "Department of Earth Sciences"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 3,
+        "fields": {
+            "department_name": "Department of Education and Psychology"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 4,
+        "fields": {
+            "department_name": "Department of History and Cultural Studies"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 5,
+        "fields": {
+            "department_name": "Department of Law"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 6,
+        "fields": {
+            "department_name": "Department of Mathematics and Computer Science"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 7,
+        "fields": {
+            "department_name": "Department of Philosophy and Humanities"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 8,
+        "fields": {
+            "department_name": "Department of Physics"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 9,
+        "fields": {
+            "department_name": "Department of Political and Social Sciences"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 10,
+        "fields": {
+            "department_name": "Department of Veterinary Medicine"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 11,
+        "fields": {
+            "department_name": "School of Business and Economics"
+        }
+    },
+    {
+        "model": "ThesisListing.departments",
+        "pk": 12,
+        "fields": {
+            "department_name": "Medical School - Charité - University Medicine Berlin"
+        }
+    }
+]

@@ -1,0 +1,2 @@
+class="icon svg-inline--fa fa-calender-day fa-w-14 fa-fw fa-lg"
+--fontFamily: Muli,Mulish,Open Sans,sans-serif;

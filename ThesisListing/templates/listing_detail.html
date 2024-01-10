@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+  <article class="media content-section">
+    <div class="media-body">
+      <P><strong>Department: </strong>{{ object.department }}</P>
+      <P><strong>Institute: </strong>{{ object.institute }}</P>
+      <P><strong>Student Level: </strong>{{ object.student_level }}</P>
+      <P><strong>Language: </strong>{{ object.writing_language }}</P>
+      <h2 class="article-title">{{ object.title }}</h2>
+      <div class="article-metadata">
+        <a class="mr-2">{{ object.supervisor }}</a>
+        <small class="text-muted">{{ object.creation_date|date:"F d, Y" }}</small>
+      </div>
+      
+      <p class="article-content"><strong>Abstract: </strong>{{ object.description }}</p>
+      <p ><strong>Contact: </strong>{{ object.contact }}</p>
+      <P><strong>Accompanying file: </strong><a href={{ object.accompanying_file.url}}>{{ object.accompanying_file.name }}</a></P>
+    </div>
+  </article>
+{% endblock content %}

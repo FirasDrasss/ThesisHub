@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+  /* Some basic styles for demonstration */
+  .filter-container {
+      margin-bottom: 20px;
+  }
+
+  select {
+      padding: 8px;
+      font-size: 12px;
+  
+  }
+
+  label{
+    font-size: 12px;
+  }
+  select,
+        input[type="text"],
+        button {
+            padding: 8px;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+</style>
+<div style="margin-bottom: 70px;">
+<button style="float: right;background-color: #04AA6D;font-size: 20px;padding: 15px 32px;border-radius: 12px;" type='button'>Post</button>
+</div>
+<div class="filter-container">
+  <label for="department-select">Select Department: </label>
+  <select id="department-select">
+      <option value="all">All Departments</option>
+      <option value="engineering">Engineering</option>
+      <option value="science">Science</option>
+      <option value="humanities">Humanities</option>
+      <!-- Add more departments as needed -->
+  </select>
+
+  <label for="institute-select">Select Institute: </label>
+  <select id="institute-select">
+      <option value="all">All Institutes</option>
+      <option value="research">-----</option>
+      <option value="technology">------</option>
+      <option value="arts">-------</option>
+      <!-- Add more institutes as needed -->
+  </select>
+  <label for="language-select">Select Writing Language: </label>
+  <select id="language-select">
+      <option value="all">All Languages</option>
+      <option value="English">English</option>
+      <option value="German">German</option>
+      <!-- Add more institutes as needed -->
+  </select>
+  <label for="student-level-select">Select Student Level: </label>
+  <select id="student-level-select">
+      <option value="all">Open to All Levels</option>
+      <option value="Bachelor">Bachelor</option>
+      <option value="Phd">Phd</option>
+      <!-- Add more institutes as needed -->
+  </select>
+  <input type="text" id="search-input" placeholder="Search by keyword">
+  <button id="search-button">Search</button>
+</div>
+    {% for post in thesis_listings %}
+        <article class="content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              {{ post.supervisor }}
+              <small class="text-muted">{{ post.creation_date }}</small>
+            </div>
+            <h2><a class="article-title" href="{% url 'listing_view' pk=post.id %}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.description }}</p>
+          </div>
+        </article>
+
+    {% endfor %}
+{% endblock content %}

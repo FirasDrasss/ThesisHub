@@ -1,0 +1,348 @@
+[
+    
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 1,
+        "fields": {
+            "department": 1,
+            "institute_name": "Institute of Biology"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 2,
+        "fields": {
+            "department": 1,
+            "institute_name": "Institute of Chemistry and Biochemistry"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 3,
+        "fields": {
+            "department": 1,
+            "institute_name": "Institute of Pharmacy"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 4,
+        "fields": {
+            "department": 2,
+            "institute_name": "Institute of Geographical Sciences"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 5,
+        "fields": {
+            "department": 2,
+            "institute_name": "Institute of Geological Sciences"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 6,
+        "fields": {
+            "department": 2,
+            "institute_name": "Institute of Meteorology"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 7,
+        "fields": {
+            "department": 3,
+            "institute_name": "Institute of Educational Science"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 8,
+        "fields": {
+            "department": 3,
+            "institute_name": "Institute of Elementary Education"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 9,
+        "fields": {
+            "department": 3,
+            "institute_name": "Institute of Psychology"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 10,
+        "fields": {
+            "department": 4,
+            "institute_name": "History - Friedrich Meinecke Institute (WE 1)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 11,
+        "fields": {
+            "department": 4,
+            "institute_name": "Art History Institute (WE 2)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 12,
+        "fields": {
+            "department": 4,
+            "institute_name": "Ancient Studies (WE 3)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 13,
+        "fields": {
+            "department": 4,
+            "institute_name": "East Asia and Near East (WE 4)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 14,
+        "fields": {
+            "department": 4,
+            "institute_name": "Institute of Iranistics"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 15,
+        "fields": {
+            "department": 4,
+            "institute_name": "Institute of Judaistics (WE 5)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 16,
+        "fields": {
+            "department": 4,
+            "institute_name": "Institute of Religious Studies (WE 8)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 17,
+        "fields": {
+            "department": 5,
+            "institute_name": "Institute of Mathematics"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 18,
+        "fields": {
+            "department": 5,
+            "institute_name": "Institute of Computer Science"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 19,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of Philosophy (WE 1)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 20,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of Greek and Latin Philology (WE 2)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 21,
+        "fields": {
+            "department": 6,
+            "institute_name": "Peter Szondi Institute for General and Comparative Literature Studies (WE 3)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 22,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of German and Dutch Philology (WE 4)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 23,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of Romance Philology (WE 5)"
+        }
+    },{
+        "model": "ThesisListing.institutes",
+        "pk": 24,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of English Philology (WE 6)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 25,
+        "fields": {
+            "department": 6,
+            "institute_name": "Institute of Theatre Studies (WE 7)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 26,
+        "fields": {
+            "department": 7,
+            "institute_name": "Institute of Experimental Physics (WE 1)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 27,
+        "fields": {
+            "department": 7,
+            "institute_name": "Institute of Theoretical Physics (WE 2)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 28,
+        "fields": {
+            "department": 7,
+            "institute_name": "Physics Education"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 29,
+        "fields": {
+            "department": 8,
+            "institute_name": "Otto Suhr Institute of Political Science"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 30,
+        "fields": {
+            "department": 8,
+            "institute_name": "Institute of Sociology"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 31,
+        "fields": {
+            "department": 8,
+            "institute_name": "Institute of Communication Studies"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 32,
+        "fields": {
+            "department": 8,
+            "institute_name": "Institute of Social and Cultural Anthropology"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 33,
+        "fields": {
+            "department": 9,
+            "institute_name": "Civil Law (WE 1)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 34,
+        "fields": {
+            "department": 9,
+            "institute_name": "Criminal Law (WE 2)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 35,
+        "fields": {
+            "department": 9,
+            "institute_name": "Public Law (WE 3)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 36,
+        "fields": {
+            "department": 10,
+            "institute_name": "Institute of Veterinary Anatomy (WE01)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 37,
+        "fields": {
+            "department": 10,
+            "institute_name": "Institute of Veterinary Physiology (WE02)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 38,
+        "fields": {
+            "department": 10,
+            "institute_name": "Institute of Veterinary Biochemistry (WE03)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 39,
+        "fields": {
+            "department": 11,
+            "institute_name": "Business Administration"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 40,
+        "fields": {
+            "department": 11,
+            "institute_name": "Economics"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 41,
+        "fields": {
+            "department": 12,
+            "institute_name": "Dentistry (Charité) (State Examination)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 42,
+        "fields": {
+            "department": 12,
+            "institute_name": "Health Sciences (Charité) (Mono bachelor)"
+        }
+    },
+    {
+        "model": "ThesisListing.institutes",
+        "pk": 43,
+        "fields": {
+            "department": 12,
+            "institute_name": "Medicine (Charité) (State Examination)"
+        }
+    }
+
+
+]
