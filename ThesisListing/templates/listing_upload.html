@@ -12,11 +12,11 @@
         </form>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script>
-            console.log("FK");
+
             $("#id_department").change(function () {
-              console.log("FKME");
+
               var url = $("#ThesisListingform").attr("data-cities-url");  
-              var departmentId = $(this).val();  // get the selected country ID from the HTML input
+              var departmentId = $(this).val();  // get the selected  ID from the HTML input
         
               $.ajax({                       // initialize an AJAX request
                 url: url,                    
